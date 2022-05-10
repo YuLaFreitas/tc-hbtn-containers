@@ -23,4 +23,5 @@ Eles costumam ter seu próprio sistema operacional, o que possibilita a execuç�
 
 Quais são as principais ferramentas e tecnologias de contêiner?
 Docker
-Kubernetes
+Kubernetes
+provedores de nuvem, como AWS, Google e Microsoft Azure
