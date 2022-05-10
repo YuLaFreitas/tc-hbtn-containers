@@ -1,0 +1,26 @@
+O que são contêineres?
+É uma abordagem de desenvolvimento, onde um aplicativo ou serviço, e suas dependências e sua configuração (abstraídos como arquivos de manifesto de implantação) são empacotados juntos como uma imagem de contêiner. 
+
+Para que se usa um contêiner?
+Para facilitar a modulação de software, adequando ao SO que este será implementantado.
+
+Quais são os benefícios dos contêineres?
+Inserir o software em contêineres dessa maneira permite que desenvolvedores e profissionais de TI os implantem em diferentes ambientes com pouca ou sem nenhuma modificação.
+Os contêineres também isolam os aplicativos uns dos outros em um sistema operacional compartilhado. Os aplicativos em contêineres são executados com base em um host do contêiner que por sua vez é executado no sistema operacional (Linux ou Windows). Os contêineres, portanto, ocupam um espaço significativamente menor do que as imagens de VM (máquina virtual).
+Outro benefício do uso de contêineres é a escalabilidade. Você pode aumentar rapidamente, criando novos contêineres para tarefas de curto prazo.
+
+Quais são os desafios dos contêineres?
+Contêineres são relativamente novos: Difícil encontrar tecnólogos experientes em ambientes conteinerizados.
+Nem todos os serviços são conteinerizados: Se ele depende de serviço não conteinerizado, pode ser custozo fazer a transição.
+A tecnologia está evoluindo com velocidade: Sendo assim, é preciso de parceiros para atuar no desnvolvimento, implementação, recisão e monitoria.
+Contêineres não são uma solução mágica: É preciso avaliar o que vai funcionar e o que não vai.
+
+Quais as diferenças entre containers e máquinas virtuais (VMs) ?
+Conteiners:
+Eles contêm, no máximo, a aplicação e os arquivos necessários para executá-la. Além disso, eles costumam ser usados para empacotar funções individuais que realizam tarefas específicas, os famosos microsserviços. Como são leves e têm um sistema operacional compartilhado, os containers são muito fáceis de migrar entre vários ambientes.
+Máquinas virutais:
+Eles costumam ter seu próprio sistema operacional, o que possibilita a execução simultânea de várias funções com uso intenso de recursos. Por terem um número maior de recursos à disposição, as máquinas virtuais são capazes de abstrair, dividir, duplicar e emular por inteiro servidores, sistemas operacionais, desktops, bancos de dados e redes.
+
+Quais são as principais ferramentas e tecnologias de contêiner?
+Docker
+Kubernetes
