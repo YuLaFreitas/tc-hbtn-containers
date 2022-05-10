@@ -5,15 +5,25 @@ Para que se usa um contêiner?
 Para facilitar a modulação de software, adequando ao SO que este será implementantado.
 
 Quais são os benefícios dos contêineres?
-Inserir o software em contêineres dessa maneira permite que desenvolvedores e profissionais de TI os implantem em diferentes ambientes com pouca ou sem nenhuma modificação.
-Os contêineres também isolam os aplicativos uns dos outros em um sistema operacional compartilhado. Os aplicativos em contêineres são executados com base em um host do contêiner que por sua vez é executado no sistema operacional (Linux ou Windows). Os contêineres, portanto, ocupam um espaço significativamente menor do que as imagens de VM (máquina virtual).
-Outro benefício do uso de contêineres é a escalabilidade.
+- Contêiners são leves
+- Contêiners são portáteis
+- Contêiners são escaláveis
+- Contêiners possibilitam foco
+- Contêiners podem ser econômicos
+- Contêiners aceleram o desenvolvimento
+- Contêiners desbloqueiam a arquitetura moderna
+- Contêiners exigem que você gerencie menos infraestrutura
 
 Quais são os desafios dos contêineres?
-Difícil encontrar tecnólogos experientes em ambientes conteinerizados.
-Se ele depende de serviço não conteinerizado, pode ser custozo fazer a transição.
-Sendo assim, é preciso de parceiros para atuar no desnvolvimento, implementação, recisão e monitoria.
-É preciso avaliar o que vai funcionar e o que não vai.
+- Contêiners são leves
+- Contêiners são portáteis
+- Contêiners são escaláveis
+- Contêiners possibilitam foco
+- Contêiners podem ser econômicos
+- Contêiners aceleram o desenvolvimento
+- Contêiners desbloqueiam a arquitetura moderna
+- Contêiners exigem que você gerencie menos infraestruturaok
+
 
 Quais as diferenças entre containers e máquinas virtuais (VMs) ?
 Conteiners:
@@ -24,4 +34,4 @@ Eles costumam ter seu próprio sistema operacional, o que possibilita a execuç�
 Quais são as principais ferramentas e tecnologias de contêiner?
 Docker
 Kubernetes
-provedores de nuvem, como AWS, Google e Microsoft Azure
+Red Hat

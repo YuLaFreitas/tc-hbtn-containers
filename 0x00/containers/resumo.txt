@@ -1,8 +1,10 @@
 O que são contêineres?
-É uma abordagem de desenvolvimento, onde um aplicativo ou serviço, e suas dependências e sua configuração (abstraídos como arquivos de manifesto de implantação) são empacotados juntos como uma imagem de contêiner. 
+Os contêineres permitem que um aplicativo seja executado de forma consistente e confiável, 
+ São eles que permitem rodar múltiplos sistemas isolados dentro de um sistema operacional real.
 
 Para que se usa um contêiner?
-Para facilitar a modulação de software, adequando ao SO que este será implementantado.
+Os containers são utilizados em larga escala no desenvolvimento, testes e, principalmente, na produção de softwares
+representando o futuro da computação DevOps,nativo da nuvem, IA e machine learning.
 
 Quais são os benefícios dos contêineres?
 - Contêiners são leves
@@ -14,24 +16,22 @@ Quais são os benefícios dos contêineres?
 - Contêiners desbloqueiam a arquitetura moderna
 - Contêiners exigem que você gerencie menos infraestrutura
 
+
 Quais são os desafios dos contêineres?
-- Contêiners são leves
-- Contêiners são portáteis
-- Contêiners são escaláveis
-- Contêiners possibilitam foco
-- Contêiners podem ser econômicos
-- Contêiners aceleram o desenvolvimento
-- Contêiners desbloqueiam a arquitetura moderna
-- Contêiners exigem que você gerencie menos infraestruturaok
+- Contêineres são relativamente novos
+- Contêineres não são uma solução mágica
+- Nem todos os serviços são conteinerizados
+- A tecnologia está evoluindo com velocidade
+- Contêineres exigem mudanças no processo e nas habilidades
 
 
 Quais as diferenças entre containers e máquinas virtuais (VMs) ?
-Conteiners:
-Eles contêm, no máximo, a aplicação e os arquivos necessários para executá-la. Além disso, eles costumam ser usados para empacotar funções individuais que realizam tarefas específicas, os famosos microsserviços. Como são leves e têm um sistema operacional compartilhado, os containers são muito fáceis de migrar entre vários ambientes.
-Máquinas virutais:
-Eles costumam ter seu próprio sistema operacional, o que possibilita a execução simultânea de várias funções com uso intenso de recursos. Por terem um número maior de recursos à disposição, as máquinas virtuais são capazes de abstrair, dividir, duplicar e emular por inteiro servidores, sistemas operacionais, desktops, bancos de dados e redes.
+- Ambos são considerados "empacotamento". O contêiner é um pacote que inclui seu
+aplicativo e tudo o que ele precisa para ser executado, exceto o sistema operacional.
+- Já por sua vez as máquinas virtuais são pacotes que inclui as aplicações e tudo o que ele precisa para ser executado,
+incluindo o próprio sistema operacional.
 
 Quais são as principais ferramentas e tecnologias de contêiner?
-Docker
-Kubernetes
-Red Hat
+- Docker 
+- Kubernetes 
+- Red Hat
